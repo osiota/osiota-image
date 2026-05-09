@@ -17,6 +17,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "osiota": "2.6.0"
+    "osiota": "2.7.0"
   }
 }
