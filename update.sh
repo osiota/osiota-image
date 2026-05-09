@@ -27,7 +27,7 @@ git push
 
 OSIOTA_VERSION="$(jq -r .dependencies.osiota src/package.json)"
 
-if ! git tag -v "${OSIOTA_VERSION}" >/dev/null 2>&1; then
-  git tag "$OSIOTA_VERSION}"
+if ! git tag -v "v${OSIOTA_VERSION}" >/dev/null 2>&1; then
+  git tag "v${OSIOTA_VERSION}"
   git push --tags
 fi
