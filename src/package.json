@@ -1,6 +1,7 @@
 {
   "name": "system-osiota",
   "version": "1.0.9",
+  "private": true,
   "description": "",
   "scripts": {
     "osiota": "osiota --config osiota.json",
