@@ -1,0 +1,4 @@
+.*.un~
+.*.swp
+config/
+node_modules/
