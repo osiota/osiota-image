@@ -1,4 +1,4 @@
-FROM node:26.10.0-trixie-slim
+FROM node:26.12.1-trixie-slim
 
 # /cache for caching applications code
 # /data for configuration and persistent data
